@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section>
+    <div class="login-box">
+        <form action="" name="register_form" method="post" onsubmit="return login()">
+        <h2>Login</h2>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon> </span>
+          <input type="email" name="mail" required>
+          <label> Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon> </span>
+          <input type="password" name="password" required>
+          <label> Password</label>
+        </div>
+        <div class="remember-forget">
+          <label>
+            <input type="checkbox">Remember Me
+          </label>
+          <a href="#">Forget Password</a>
+        </div>
+        <button type="submit">Login</button>
+        <div class="register-link">
+          <p>Don't have an account?
+            <a href="register.html">Register</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+  <script type="text/javascript">
+    function login() {
+      const form = document.forms.register_form;
+      const email = form.mail.value;
+      const password = form.password.value;
+
+      if (!email || !password) {
+        alert("Please fill in all fields.");
+        return false;
+      }
+
+      const validUsers = [
+        "shasankharatpatil@gmail.com",
+        "harshal@gmail.com",
+        "neeraj@gmail.com",
+        "om@gmail.com",
+        "jaspreet@gmail.com"
+      ];
+
+      if (password === "12345" && validUsers.includes(email)) {
+        window.open("index.html", "_self");
+      } else {
+        alert("Invalid credentials!");
+      }
+
+      return false;
+    }
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
