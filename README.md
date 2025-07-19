@@ -25,8 +25,8 @@ Stock prediction, machine learning, data science, time series forecasting, yfina
 
 ## 🖼️ User Interface Preview
 ### 🔮 Frontend Section
-![Frontend Section](assets/images/hero_section.png)
+![Frontend Section](assets/hero_section.png)
 
 ## 📈 Stock Prediction Streamlit Output
 ### 🌲 Random Forest Prediction Output
-![Random Forest Output](assets/images/kharatpatil_streamlit_app 2.png)
+![Random Forest Output](assets/kharatpatil_streamlit_app 2.png)
