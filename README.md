@@ -32,7 +32,7 @@ Stock prediction, machine learning, data science, time series forecasting, yfina
 
 ## 📈 Stock Prediction Streamlit Output
 ### 🌲 Company Selection Output
-![Company Selection Output](assets/images/kharatpatil_streamlit_app1.png)
+![Company Selection Output](assets/images/kharatpatil_streamlit_app1.jpeg)
 
 ### 🌲 Random Forest Prediction Output
 ![Random Forest Output](assets/images/kharatpatil_streamlit_app2.png)
