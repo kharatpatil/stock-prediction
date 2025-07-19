@@ -25,7 +25,14 @@ Stock prediction, machine learning, data science, time series forecasting, yfina
 
 ## 🖼️ User Interface Preview
 ### 🔮 Hero Section
-![Hero Section](assets/hero_section.png)
+![Hero Section](assets/output/hero_section.png)
 
 ### 🏢 MNC Company Section
-![Company Section](assets/company_section.png)
+![Company Section](assets/output/company_section.png)
+
+## 📈 Stock Prediction Streamlit Output
+### 🔮500 Company Selection Output
+![Company Selection and Information](assets/output/kharatpatil_streamlit_app 1.jpeg)
+
+### 🌲 Random Forest Prediction Output
+![Random Forest Output](assets/output/kharatpatil_streamlit_app 2.png)
